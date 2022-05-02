@@ -46,3 +46,13 @@ $mv file2 newdir
 
 #for structured documentation manual known as a manfile
 $man man 
+
+#FILE GLOBBING
+$ mv * /some/other/directory/
+$ mv file* /some/other/directory/
+$ mv file? /some/other/directory/
+
+#info 
+$info
+
+
