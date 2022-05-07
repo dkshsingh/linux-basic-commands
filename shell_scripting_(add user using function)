@@ -1,0 +1,26 @@
+#adding user 
+#!/bin/bash
+
+add_user()
+{
+USER=$1
+PASS=$2
+
+useradd -m -p $PASS $USER && echo "suceesfully added user"
+
+}
+#MAIN
+
+add_user Deeksha@6
+
+#output 
+$chmod 777 fun1.sh
+$./fun1.sh
+useradd -D 
+
+$sudo ./fun1.sh
+password for user: (password + enter)
+user add -D ...
+.....
+.....
+.....
